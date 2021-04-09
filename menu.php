@@ -66,6 +66,8 @@
 					<img href="ventas/ventas.php" src="images/ventas.png" width="150" height="150" HSPACE="10" VSPACE="10">
                     <center> <a href="vistas/ventas.php"><button class="btn blue">Registro de Ventas</button></a> </center>
 				</div>
+
+
 		</div>
 
 	</div>
