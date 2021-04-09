@@ -11,6 +11,7 @@
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="css/util.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 <!--===============================================================================================-->
 </head>
@@ -66,31 +67,22 @@
 					<img href="ventas/ventas.php" src="images/ventas.png" width="150" height="150" HSPACE="10" VSPACE="10">
                     <center> <a href="vistas/ventas.php"><button class="btn blue">Registro de Ventas</button></a> </center>
 				</div>
+	<pv></pv> <pv></pv> <pv></pv> <pv></pv> <pv></pv> <pv></pv> <pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv>
+	<pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv><pv></pv>
 
+				<div class="login100-pic js-tilt border border-3 " data-tilt>
+					<img href="usuarios/usuarios.php" src="images/personas.png" width="150" height="150" HSPACE="10" VSPACE="10">
+                    <center> <a href="vistas/usuarios.php"><button class="btn blue">Registrar Usuarios</button></a> </center>
+				</div>
+				<br>
+				<br>
+				<center><button style="background-color:red" class="btn btn-secondary btn-lg active" onclick="window.location.href='index.html'"> Cerrar Sesion</button></center>	</div>        
 
 		</div>
 
 	</div>
+	
 
-
-
-
-<!--===============================================================================================-->
-	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/bootstrap/js/popper.js"></script>
-	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/select2/select2.min.js"></script>
-<!--===============================================================================================-->
-	<script src="vendor/tilt/tilt.jquery.min.js"></script>
-	<script >
-		$('.js-tilt').tilt({
-			scale: 1.1
-		})
-	</script>
-<!--===============================================================================================-->
-	<script src="js/main.js"></script>
 
 </body>
 </html>
